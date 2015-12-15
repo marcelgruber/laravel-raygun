@@ -49,3 +49,4 @@ App::error(function(Exception $exception)
     Raygun::sendException($exception);
 });
 ```
+For Laravel 4 installations, this is located in `app/start/global.php`:
